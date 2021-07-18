@@ -20,14 +20,14 @@ const Header = () => {
       case "/sign-in":
         setHeaderComponent(
           <Link className="header__link" to={"/sign-up"}>
-            Войти
+            Регистрация
           </Link>
         );
         break;
       case "/sign-up":
         setHeaderComponent(
           <Link className="header__link" to={"/sign-in"}>
-            Регистрация
+            Войти
           </Link>
         );
         break;
